@@ -10,8 +10,8 @@ function formulaTriangulo (base, altura){
     return area
 }
 
-function formulaCirculo (pi, raio){
-    let area = (pi*raio**2)
+function formulaCirculo (raio){
+    let area = (Math.PI*raio**2)
     console.log("A área do circulo é: ")
     return area
 }
